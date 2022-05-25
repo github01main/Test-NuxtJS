@@ -1,25 +1,19 @@
-# Nuxt 3 Minimal Starter
+# Test-NuxtJS
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+## Dev Tools List
 
-## Setup
+- node.js v18.0.0
+- nuxt@3.0.0-rc.3
 
-Make sure to install the dependencies:
+official [nuxt 3 documentation](https://v3.nuxtjs.org).
+official [nuxt 3 roadmap](https://v3.nuxtjs.org/community/roadmap) * nuxt 3 is still not stabled.
 
-```bash
-# yarn
-yarn install
+## Purpose of This Project
 
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
+- [X] set the data from data.ts for DOM space.
+- [ ] Deploying The Project by Nuxt 3. 
+- [ ] Using Github Action with Nuxt 3 Web FrameWork.
+- [X] Understaing between SPA and MPA. 
 
 ```bash
 npm run dev
@@ -38,10 +32,3 @@ Locally preview production build:
 ```bash
 npm run preview
 ```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
-
-## Developement Tools List of this Project
-
-- node.js v18.0.0
-- nuxt@3.0.0-rc.3
