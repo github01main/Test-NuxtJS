@@ -40,3 +40,8 @@ npm run preview
 ```
 
 Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+
+## Developement Tools List of this Project
+
+- node.js v18.0.0
+- nuxt@3.0.0-rc.3
