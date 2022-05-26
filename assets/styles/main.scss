@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    place-items: center;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+@keyframes Opacity-controller {
+    from {
+      opacity: 0.5;
+    }
+    to {
+      opacity: 1;
+    }
+}
+
+@keyframes Reverse-Opacity-controller {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0.5;
+    }
+}
+
+//#region Colours.
+$base-background : rgba(0,0,0,1);
+$base-text-color : white;
+$base-alpha : 1.0;
+
+$base-margin  : 1vh;
+$base-padding : 1vh;
+
+//#endregion
+
+body{
+    background-color : rgba($base-background, $base-alpha);
+    color : $base-text-color;
+}
+
+nav{
+    width: auto;
+    height: auto;
+    display: flex;
+    font-style: italic;
+    position: absolute;
+    top: 15vh;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    .page-list{
+
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        border: 0.1vh 0.1vh solid white;
+        border-radius: 1vh;
+
+        li{
+            display: flex;
+            width: auto;
+            font-size: 1.5vh;
+            padding: $base-padding;
+            margin: $base-margin;
+            cursor: pointer;
+
+            &:hover{    
+
+                animation-name: Reverse-Opacity-controller;
+                animation-duration: 0.75s;
+                animation-iteration-count : 1;
+            }
+        }
+    }
+}
+
+header{
+    width: auto;
+    height: 15vh;
+    padding: $base-padding;
+    display: flex;
+    font-style: italic;
+
+    .category-title{
+        font-size: 4vh;
+        animation-name: Opacity-controller;
+        animation-delay: 0.25s;
+        animation-duration: 1s;
+        animation-iteration-count : 1;
+    }    
+}
+
+section{
+    width: auto;
+    height: 15vh;
+    padding: $base-padding;
+    display: flex;
+}
+article{
+    width: auto;
+    height: 60vh;
+    padding: $base-padding;
+    display: flex;
+}
+footer{
+    width: auto;
+    height: 10vh;
+    padding: $base-padding;
+    display: flex;
+}

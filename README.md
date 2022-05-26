@@ -3,8 +3,19 @@
 ## Dev Tools List
 
 - node.js v18.0.0
-- nuxt@3.0.0-rc.3
+- Core Engine : nuxt@3.0.0-rc.3
+- Bundler : @nuxt/vite-builder
+- Command line interface : nuxi
+- Server engine nitro
+- Development kit : @nuxt/kit
+- Nuxt 2 Bridge : @nuxt/bridge
 
+## Rendering Mode 
+
+- [ ] Client-side only rendering (CSR).
+- [X] Universal Rendering (CSR + SSR).
+- [ ] Hybrid Rendering.
+ 
 official [nuxt 3 documentation](https://v3.nuxtjs.org).
 official [nuxt 3 roadmap](https://v3.nuxtjs.org/community/roadmap) * nuxt 3 is still not stabled.
 
